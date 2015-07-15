@@ -10,12 +10,19 @@ import UIKit
 
 class DayView: UIView {
 
-    /*
-    // Only override drawRect: if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func drawRect(rect: CGRect) {
-        // Drawing code
+    var date: NSDate?
+    var isOtherMonth: Bool
+    var isSelected: Bool
+    required init(coder aDecoder: NSCoder) {
+        self.isOtherMonth = false
+        self.isSelected = false
+        super.init(coder: aDecoder)
     }
-    */
+
+    override init(frame: CGRect) {
+        self.isOtherMonth = false
+        self.isSelected = false
+        super.init(frame: frame)
+    }
 
 }

@@ -9,13 +9,22 @@
 import UIKit
 
 class CircleView: UIView {
-
-    /*
-    // Only override drawRect: if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
+    var color: UIColor
     override func drawRect(rect: CGRect) {
-        // Drawing code
+        self.color = UIColor.whiteColor()
+        let context = UIGraphicsGetCurrentContext()
+        CGContextSetFillColorWithColor(context, self.backgroundColor?.CGColor)
+        CGContextFillRect(context, rect)
+        let newRect = CGRectInset(rect, 0.5, 0.5)
+        CGContextSetStrokeColorWithColor(context, self.color.CGColor)
+        CGContextSetFillColorWithColor(context, self.color.CGColor)
+        CGContextAddEllipseInRect(context, newRect);
+        CGContextFillEllipseInRect(context, newRect);
+        CGContextFillPath(context);
     }
-    */
 
+    func setColor(color: UIColor) {
+        self.color = color
+        self.setNeedsDisplay()
+    }
 }

@@ -13,6 +13,10 @@
 		E1E39F571B56754C003F683A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E39F561B56754C003F683A /* Images.xcassets */; };
 		E1E39F5A1B56754C003F683A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1E39F581B56754C003F683A /* LaunchScreen.xib */; };
 		E1E39F661B56754C003F683A /* CalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E39F651B56754C003F683A /* CalendarTests.swift */; };
+		E1E39F701B567577003F683A /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E39F6F1B567577003F683A /* DayView.swift */; };
+		E1E39F721B567655003F683A /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E39F711B567655003F683A /* MonthView.swift */; };
+		E1E39F741B567669003F683A /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E39F731B567669003F683A /* WeekView.swift */; };
+		E1E39F761B568186003F683A /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E39F751B568186003F683A /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		E1E39F5F1B56754C003F683A /* CalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E39F641B56754C003F683A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1E39F651B56754C003F683A /* CalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTests.swift; sourceTree = "<group>"; };
+		E1E39F6F1B567577003F683A /* DayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		E1E39F711B567655003F683A /* MonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		E1E39F731B567669003F683A /* WeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		E1E39F751B568186003F683A /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				E1E39F561B56754C003F683A /* Images.xcassets */,
 				E1E39F581B56754C003F683A /* LaunchScreen.xib */,
 				E1E39F4D1B56754C003F683A /* Supporting Files */,
+				E1E39F6F1B567577003F683A /* DayView.swift */,
+				E1E39F751B568186003F683A /* CircleView.swift */,
+				E1E39F731B567669003F683A /* WeekView.swift */,
+				E1E39F711B567655003F683A /* MonthView.swift */,
 			);
 			path = Calendar;
 			sourceTree = "<group>";
@@ -212,8 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1E39F761B568186003F683A /* CircleView.swift in Sources */,
 				E1E39F521B56754C003F683A /* ViewController.swift in Sources */,
+				E1E39F741B567669003F683A /* WeekView.swift in Sources */,
+				E1E39F701B567577003F683A /* DayView.swift in Sources */,
 				E1E39F501B56754C003F683A /* AppDelegate.swift in Sources */,
+				E1E39F721B567655003F683A /* MonthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
