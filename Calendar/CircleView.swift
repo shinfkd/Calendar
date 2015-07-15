@@ -3,7 +3,7 @@
 //  Calendar
 //
 //  Created by Shintaro Fukuda on 2015/07/15.
-//  Copyright (c) 2015年 Livesense Inc. All rights reserved.
+//  Copyright (c) 2015年 Shintaro Fukuda All rights reserved.
 //
 
 import UIKit
